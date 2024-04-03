@@ -1,0 +1,86 @@
+html {
+    background-color: rgb(247, 247, 247);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+section{
+    text-align: center;
+}
+
+.shopping{
+    text-align: center;
+    background-color: rgba(53, 67, 95, 0.73);
+    color: white;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+div {
+    display: block;
+}
+
+.card {
+    margin: 1em;
+    border-radius: 7px;
+    margin-bottom: 4em; 
+    display: inline-block;
+    width: 8em;
+    background-color: white;
+    box-shadow: 0.5em 0.1em 1em 0.2em rgb(194, 194, 194);
+    text-align: center;
+}
+.img-responsive {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+
+}
+.header{
+    margin: auto;
+}
+.name{
+    font-weight: bolder;
+    font-size: 1em;
+    margin: 5px;
+}
+
+.card .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #012A4A;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+footer{
+    background-color: rgb(232, 232, 232);
+    padding: 2em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+  
+div.scrollmenu div {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+  
+div.scrollmenu a:hover {
+    background-color: #777;
+} */ 
