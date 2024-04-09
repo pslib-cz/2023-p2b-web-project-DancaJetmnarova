@@ -1,8 +1,3 @@
-html {
-    background-color: rgb(247, 247, 247);
-    font-family : Georgia, 'Times New Roman', Times, serif;
-}
-
 section{
     text-align: center;
 }
@@ -13,6 +8,14 @@ section{
     color: white;
     padding-top: .5em;
     padding-bottom: .5em;
+}
+
+.shopping h2{
+    font-size: 30px;
+}
+
+.shopping p{
+    font-size: large;
 }
 
 div {
@@ -60,14 +63,6 @@ div {
 
 }
 
-footer{
-    background-color: rgb(232, 232, 232);
-    padding: 2em;
-}
-
-footer p {
-    margin: 0;
-}
 
 /* div.scrollmenu {
     overflow: auto;
