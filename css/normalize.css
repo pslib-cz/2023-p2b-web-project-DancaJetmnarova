@@ -63,8 +63,21 @@ div {
 
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
 
-/* div.scrollmenu {
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+  
+}
+
+
+/* div.scrollmenu { 
     overflow: auto;
     white-space: nowrap;
 }
