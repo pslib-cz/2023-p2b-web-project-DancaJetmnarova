@@ -11,7 +11,7 @@ section{
 }
 
 .shopping h2{
-    font-size: 30px;
+    font-size: 1.875em;
 }
 
 .shopping p{
@@ -24,7 +24,7 @@ div {
 
 .card {
     margin: 1em;
-    border-radius: 7px;
+    border-radius: 0.4375em;
     margin-bottom: 4em; 
     display: inline-block;
     width: 8em;
@@ -39,25 +39,25 @@ div {
 .name{
     font-weight: bolder;
     font-size: 1em;
-    margin: 5px;
+    margin: 0.3125em;
 }
 
 .card .btn {
     display: inline-block;
-    padding: 8px 16px;
+    padding: 0.5em 1em;
     background-color: #012A4A;
     text-decoration: none;
-    border-radius: 4px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    border-radius: 0.25em;
+    margin-top: 0.3125em;
+    margin-bottom: 0.625em;
     color: white;
 
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(12.5em, 1fr));
+    grid-gap: 0.9375em;
     margin: 1em;
 }
 

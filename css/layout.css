@@ -3,7 +3,7 @@ body{
     background-image: url(../images/Default_books_2.jpg);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 1080px;
 }
 
 main {
@@ -15,29 +15,29 @@ main {
 
 .registration-form {
     width: 100%;
-    max-width: 300px;
-    padding: 20px;
+    max-width: 18.75em;
+    padding: 1.25em;
     background-color: rgba(255, 255, 255,.5);
-    border-radius: 10px;
+    border-radius: 0.625em;
   }
   
   .registration-form h2 {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
   }
   
   .registration-form label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em;
   }
   
   .registration-form input[type="text"],
   .registration-form input[type="email"],
   .registration-form input[type="password"] {
     width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 0.625em;
+    margin-bottom: 0.625em;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 0.3125em;
   }
   
   .registration-form input[type="text"]:focus,
@@ -50,7 +50,7 @@ main {
   .registration-form button {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 0.625em;
     background-color: rgba(1, 42, 74, 1);
     color: #fff;
     border: none;
