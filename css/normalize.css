@@ -32,16 +32,7 @@ div {
     box-shadow: 0.5em 0.1em 1em 0.2em rgb(194, 194, 194);
     text-align: center;
 }
-.img-responsive {
-    width: 100%;
-    object-fit: cover;
-    object-position: top;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
 
-}
 .header{
     margin: auto;
 }
