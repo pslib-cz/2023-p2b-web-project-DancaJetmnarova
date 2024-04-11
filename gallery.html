@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="./css/normalize.css">
     <link rel="stylesheet" href="./icomoons/mail/style.css">
     <link rel="stylesheet" href="./icomoons/phone/style.css">
-    <script src="./scripts/gallery.js"></script>
+    <link rel="icon" type="image/svg" href="./images/book.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/css/lightgallery-bundle.min.css"/>
     <title>Gallery</title>
 </head>
 <body>
@@ -39,6 +40,16 @@
     <div class="shopping">
         <h2>Gallery</h2>
         <p>Here you can see all photos!</p>
+    </div>
+
+    <div class="gallery" id="lightgallery">
+        <a src="./images/acotar.jpg">
+          <img
+            class="gallery__item"
+            src="./images/acotar.jpg"
+            alt="ACOTAR"
+          />
+        </a>
     </div>
 
     <div class="gallery">
@@ -95,5 +106,20 @@
             <p><span class="icon-mail4"></span> vubecmetonebavi@seznam.cz</p>
         </div>
     </footer>
+    <script type="module">
+        import lightgallery from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/+esm";
+        import lgThumbnail from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/thumbnail/+esm";
+        import lgZoom from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/zoom/+esm";
+        import lgAutoplay from "https://cdn.jsdelivr.net/npm/lightgallery@2.7.2/plugins/autoplay/+esm";
+  
+        lightgallery(document.querySelector(".gallery"), {
+          selector: document.querySelectorAll(".gallery a"),
+          plugins: [lgThumbnail, lgZoom, lgAutoplay],
+          slideShowAutoplay: false,
+          slideShowInterval: 2000,
+          subHtmlSelectorRelative: false,
+          allowMediaOverlap: false,
+        });
+      </script>
 </body>
 </html>
