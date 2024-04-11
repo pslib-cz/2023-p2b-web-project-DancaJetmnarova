@@ -35,7 +35,7 @@ img {
 .nav > .nav-header > .nav-title {
     display: inline-block;
     font-size: xx-large;
-    padding: 0.625em 0.625em 0.625em 0.625em;
+    padding: 0.2em 0.5em 0.2em 0.5em;
 }
   
 .nav > .nav-btn {
@@ -117,4 +117,5 @@ footer{
 
 footer p {
     margin: 0;
+    padding: 0.2em;
 }
