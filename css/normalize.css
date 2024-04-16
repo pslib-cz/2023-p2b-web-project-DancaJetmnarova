@@ -60,29 +60,17 @@ div {
 
 }
 
-/* .gallery {
+.gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(12.5em, 1fr));
-    grid-gap: 0.9375em;
-    margin: 1em;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-    display: block;
-  
-} */
-
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    grid-gap: 5rem;
+    padding: 2vw;
+    padding-top: 1em;
 }
 
 .gallery__item {
-    width: 300px;
-    margin-bottom: 1rem;
+    display: block;
+    width: 100%;
 }
 
 
