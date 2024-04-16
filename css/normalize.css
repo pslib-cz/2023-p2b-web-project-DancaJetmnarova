@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 section{
     text-align: center;
 }
@@ -71,12 +65,4 @@ div {
 .gallery__item {
     display: block;
     width: 100%;
-}
-
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
-    .gallery__item {
-        width: 100%;
-    }
 }
