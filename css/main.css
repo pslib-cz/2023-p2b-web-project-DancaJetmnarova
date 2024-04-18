@@ -21,8 +21,6 @@ img {
 }
    
 .nav {
-    height: 3.125em;
-    width: 100%;
     background-color: rgba(1, 42, 74, 1);
     position: relative;
     color: white;

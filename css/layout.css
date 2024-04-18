@@ -14,8 +14,7 @@ main {
   }
 
 .registration-form {
-    width: 100%;
-    max-width: 18.75em;
+    max-width: 20em;
     padding: 1.25em;
     background-color: rgba(255, 255, 255,.5);
     border-radius: 0.625em;
