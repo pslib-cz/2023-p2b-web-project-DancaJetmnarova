@@ -1,6 +1,6 @@
 html {
     background-color: rgb(247, 247, 247);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -14,10 +14,6 @@ img {
     margin: 0;
     padding: 0;
     object-fit: cover;
-}
-
-* {
-    box-sizing: border-box;
 }
    
 .nav {
