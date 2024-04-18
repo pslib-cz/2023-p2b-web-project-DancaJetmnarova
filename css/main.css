@@ -48,14 +48,17 @@ img {
     font-size: 1.125em;
 }
   
-.nav > .nav-links > a {
+.nav > .nav-links > li {
     display: inline-block;
     padding: 0.8125em 0.625em 0.8125em 0.625em;
-    text-decoration: none;
-    color: white;
+}
+
+.nav > .nav-links > li > a {
+  text-decoration: none;
+  color: white;
 }
   
-.nav > .nav-links > a:hover {
+.nav > .nav-links > li:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
   
@@ -97,7 +100,7 @@ img {
       top: 3.125em;
       left: 0px;
     }
-    .nav > .nav-links > a {
+    .nav > .nav-links > li {
       display: block;
       width: 100%;
     }
