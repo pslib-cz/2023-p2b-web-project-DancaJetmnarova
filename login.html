@@ -7,49 +7,48 @@
     <link rel="stylesheet" type="text/css" href="./css/layout.css">
     <link rel="stylesheet" href="./icomoons/mail/style.css">
     <link rel="stylesheet" href="./icomoons/phone/style.css">
-    <link rel="icon" type="image/svg" href="./images/book.svg">
-    <title>Login</title>
+    <link rel="icon" type="image/svg+xml" href="./images/book.svg">
+    <title>ENbooks - Login</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav">
+    <header>
+        <nav class="navbar">
             <input type="checkbox" id="nav-check">
             <div class="nav-header">
-            <div class="nav-title">
-                ENbooks
+                <div class="nav-title">
+                    <h1><a href="index.html">ENbooks</a></h1>
+                </div>
             </div>
-            </div>
-            <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
-            </div>
-            
-            <div class="nav-links">
+            <menu class="menu--toggle">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="shopping.html" >Shopping</a></li>
                 <li><a href="login.html" >Sign in</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
+            </menu>
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
             </div>
-        </div>
-    </nav>
-
+        </nav>
+    </header>
+    
     <main>
         <section class="registration-form">
             <h2>Registrace</h2>
             <form action="#" method="POST">
-            <label for="username">Uživatelské jméno:</label>
-            <input type="text" id="username" name="username" placeholder="Zadejte uživatelské jméno" required>
-            
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Zadejte váš email" required>
-            
-            <label for="password">Heslo:</label>
-            <input type="password" id="password" name="password" placeholder="Zadejte heslo" required>
-            
-            <button type="submit">Registrovat</button>
+                <label for="username">Uživatelské jméno:</label>
+                <input type="text" id="username" name="username" placeholder="Zadejte uživatelské jméno" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Zadejte váš email" required>
+                
+                <label for="password">Heslo:</label>
+                <input type="password" id="password" name="password" placeholder="Zadejte heslo" required>
+                
+                <button type="submit">Registrovat</button>
             </form>
         </section>
     </main>
